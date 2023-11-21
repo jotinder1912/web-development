@@ -3,7 +3,7 @@ body,ul,li,div,p,span,h1,h2,h3,h4,h5,h6,i,a{
 margin: 0;padding:0;
 } 
 .mynavbar{
-    background-color:  black !important;
+    background-color:  rgb(65, 53, 38) !important;
     padding: auto;
     border-radius: 20px;
     border-color: rgb(0, 255, 51);
@@ -11,13 +11,17 @@ margin: 0;padding:0;
     
 }
 .mylogo{
-    height: 70px;
+    height: 50px;
+    size: larger;
 }
 .mynavbar a{
     color: rgb(21, 194, 21)!important;
     font-size: 15px;
     padding: 20px 50px !important;
     text-align: auto;
+}
+.mylogo{
+    color: white;
 }
 .mynavbar a:hover{
     color: brown !important;
@@ -26,7 +30,7 @@ margin: 0;padding:0;
 .container{
     padding-top: 20px;
     min-height: 600px;
-    background-image: url(background1.jpg);
+    background-image:url(background1.jpg);
     background-repeat: no-repeat;
     background-size: cover;  
 }
@@ -45,13 +49,13 @@ margin: 0;padding:0;
 }
 .container-type{
     display: inline-block;
-    color: rgb(0, 79, 128);
+    color: rgb(0, 128, 77);
     font-size: 30px;
     padding: 10px 10px;
 }
 .typed-out{
     overflow: hidden;
-    border-left: .15em solid rgb(3, 65, 79);
+    border-bottom: .15em solid rgb(3, 65, 79);
     border-end-end-radius:30px;
     white-space: nowrap;
     animation: 
@@ -71,15 +75,13 @@ margin: 0;padding:0;
     width: 50%;
     height: 40px;
     background: black;
-    border-radius: 20px;
-    color:rgb(248, 244, 244);
-    box-shadow: 0 0 5px rgb(0, 255, 98),
-    0 0 25px rgb(0, 255, 30);
+     color: brown;
+     border-radius: 30px;
     text-decoration: none;
     margin: 30px 30px 0;
 }
 .home-icon a:hover{
-    background: green;
+    background: rgb(173, 163, 179);
     color: black;
     
 }
@@ -103,6 +105,7 @@ margin: 0;padding:0;
 .about-text p{
     color: white;
     padding-left: 20px;
+    padding-top: 20px;
 }
 p span{
     color: green;
@@ -110,6 +113,15 @@ p span{
 .about-img{
     color: white;
 }
-.about-img p{
-    height: 100px;
+.about-img h5{
+    color: white;
+    padding-top: 30px;
+}
+.about-img iframe{
+    height: 300px;
+}
+.about h1{
+    color: green;
+    text-align: center;
+
 }
