@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet" >
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  </head>
+  <body>
+    <div class="navbar-area">
+    
+      <nav class="mynav navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img class="mylogo" src="jotlogo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
+              </li>
+              <li class="nav-item">
+              <a class="CV nav-link active" aria-current="page" href="file:///C:/Users/harjo/Desktop/Final%20Portfolio/package/harjotresume.pdf">Download CV</a>
+              </li>
+              </ul>
+          </div>
+        </div>
+      </nav>
+
+    </div>
+
+
+    <div class="home" id="home">
+      <div class="container ">
+        
+        <div class="row">
+          <div class="home-text col-md-6">
+            <h1>Hello, I`m Harjot <span class="text-color">Kaur</span></h1>
+            <div class="container-type">
+          <div class="typed-out">Web Developer</div></div>
+            <br><h3>And I`m a</h3>
+            <p>dedicated computer programming student at Sault College.
+              I'm constantly seeking opportunities to expand my knowledge
+              and skills in this ever-evolving field.
+              My student journey has built a strong programming foundation
+              and a love for turning code into impactful solutions.</p>
+              <div class="home-icon">
+                <a href="https://www.facebook.com/profile.php?id=61552786892832&mibextid=LQQJ4d" style="--i:6" ><i class='bx bxl-facebook'></i></a>
+                <a href="https://instagram.com/bhangu_jotkaur?igshid=MWQ1c3VubnFzd3Ixaw%3D%3D&utm_source=qr" style="--i:7" ><i class='bx bxl-instagram' ></i></a>
+                <a href="https://www.tiktok.com/@harjotmander?_t=8hE2FeocdqX&_r=1" style="--i:8" ><i class='bx bxl-tiktok' ></i></a>
+             </div>
+             <a href="#"class="btn-box"> More About Me</a>
+          </div>
+          
+          <div class="home-image col-md-6">
+            <img class="img-fluid" src="harjot.png" alt="">
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="about" id="about">
+      <div class="container">
+
+      <div class="row">
+        <div class="about-img col-md-6">
+          <img class="img-fluid" src="harjotabout.png" alt="">
+        </div>
+        <div class="about-text col-md-6">
+          <h1>About <span class="text-color">Me</span></h1>
+          <div class="container-type">
+          <div class="typed-out">Web Development Student <br> in Sault Trios college</div></div>
+          <p>I was born on May 12, 2002, in the beautiful city of Sri Chamkaur Sahib.
+            After completing my 12th-grade education with a non-medical stream. <br> I embarked on a new journey.
+            Currently, I'm a student at Sault College in Toronto, Canada, where I've delved into the exciting world of
+            web development. <br> My passion for web development drives me to explore coding, design, and user experience,
+            as I strive to master these skills in the ever-evolving tech landscape. <br> It's an exciting and challenging path,
+            and I'm eager to make my mark in this dynamic field.</p>
+            <button type="button" class="mybutton btn btn-success" onclick="typeWriter()">Learn More about ME</button>
+              <div class="typeWriter">
+              <p id="demo"></p>
+              
+              <script>
+              var i = 0;
+              var txt = 'My student journey has built a strong programming foundation <br> and a love for turning code into impactful solutions.';
+              var speed = 50;
+              
+              function typeWriter() {
+                if (i < txt.length) {
+                  document.getElementById("demo").innerHTML += txt.charAt(i);
+                  i++;
+                  setTimeout(typeWriter, speed);
+                }
+              }
+              </script>
+              </div>
+            
+          
+        </div>
+
+      </div>
+      </div>
+
+    </div>
+
+    <div class="skills" id="skills">
+      <div class="container">
+        <h1>MY <span class="text-color">Skills</span></h1>
+
+        <div class="row">
+          <div class="skill-java col-md-6">
+            <img class="img-fluid"  src="java.jpg" alt="">
+            <div class="container-type skill-type">
+              <div class="typed-out">JAVA</div></div>
+              <P>Java is a high-level, object-oriented programming language known for its platform independence and widespread use in developing various applications.</P>
+              <button type="button" class="mybutton btn btn-success" onclick="typeWriter()">Learn More about Java</button>
+              <div class="typeWriter">
+              <p id="demo"></p>
+              
+              <script>
+              var i = 0;
+              var txt = ' and a love for turning code into impactful solutions.';
+              var speed = 50;
+              
+              function typeWriter() {
+                if (i < txt.length) {
+                  document.getElementById("demo").innerHTML += txt.charAt(i);
+                  i++;
+                  setTimeout(typeWriter, speed);
+                }
+              }
+              </script>
+              </div>
+
+              
+
+          </div>
+          <div class="skill-html col-md-6">
+            <img class="img-fluid" src="html.jpg" alt="">
+            <div class="container-type">
+              <div class="typed-out">HTML</div></div>
+              <P>HTML (Hypertext Markup Language) is a standard markup language for creating and structuring web pages.</P>
+              <button type="button" class="mybutton btn btn-success" onclick="typeWriter()">Learn More about HTML</button>
+              <div class="typeWriter">
+              <p id="demo"></p>
+              
+              <script>
+              var i = 0;
+              var txt = 'My student journey has built a strong programming foundation <br> and a love for turning code into impactful solutions.';
+              var speed = 50;
+              
+              function typeWriter() {
+                if (i < txt.length) {
+                  document.getElementById("demo").innerHTML += txt.charAt(i);
+                  i++;
+                  setTimeout(typeWriter, speed);
+                }
+              }
+              </script>
+              </div>
+
+
+          </div>
+          <div class="skill-python col-md-6">
+            <img class="img-fluid" src="python.jpg" alt="">
+            <div class="container-type">
+              <div class="typed-out">PYTHON</div></div>
+              <P>Python is a high-level, interpreted programming language known for its readability, simplicity, and versatility, suitable for a wide range of applications.</P>
+              <button type="button" class="mybutton btn btn-success" onclick="typeWriter()">Learn More about PYTHON</button>
+              <div class="typeWriter">
+              <p id="demo"></p>
+              
+              <script>
+              var i = 0;
+              var txt = 'My student journey has built a strong programming foundation <br> and a love for turning code into impactful solutions.';
+              var speed = 50;
+              
+              function typeWriter() {
+                if (i < txt.length) {
+                  document.getElementById("demo").innerHTML += txt.charAt(i);
+                  i++;
+                  setTimeout(typeWriter, speed);
+                }
+              }
+              </script>
+              </div>
+
+
+          </div>
+          <div class="skill-css col-md-6">
+            <img class="img-fluid" src="css.jpg" alt="">
+            <div class="container-type">
+              <div class="typed-out">CSS</div></div>
+              <P>CSS (Cascading Style Sheets) is a style sheet language used for describing the presentation of a document written in HTML or XML, including aspects like layout, colors, and fonts, to enhance the visual presentation of web pages.</P>
+              <button type="button" class="mybutton btn btn-success" onclick="typeWriter()">Learn More about CSS</button>
+              <div class="typeWriter">
+              <p id="demo"></p>
+              
+              <script>
+              var i = 0;
+              var txt = 'My student journey has built a strong programming foundation <br> and a love for turning code into impactful solutions.';
+              var speed = 50;
+              
+              function typeWriter() {
+                if (i < txt.length) {
+                  document.getElementById("demo").innerHTML += txt.charAt(i);
+                  i++;
+                  setTimeout(typeWriter, speed);
+                }
+              }
+              </script>
+              </div>
+
+
+          </div>
+
+
+        </div>
+      </div>
+
+
+
+    </div>
+
+
+
+    <div class="contact" id="contact">
+
+      <div class="container">
+        <h1>CONTACT<span class="text-color text-md-center">   ME</span></h1>
+
+        <div class="row">
+
+          <div class="contact-map col-md-5">
+            <div class="map">
+              <h5> My Brithplace on Google Maps</h5>
+               <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52017901.51741921!2d-1.6571512999999927!3d37.273306399999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3910007d0cb2e71b%3A0x64a761fcb9c5f694!2sShri%20Chamkaur%20Sahib!5e0!3m2!1sen!2sca!4v1696640365782!5m2!1sen!2sca" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+            </div>
+          </div>
+                  <div class="empty col-md-1"></div>
+           
+          
+          <div class="contact-form col-md-6 ">
+            <h2 class="h1-responsive font-weight-bold text-center my-4">Contact  Form</h2>
+             <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact me directly.I will come back to you within
+                  a matter of hours to help you.</p>
+                  <div class="row">
+                        <div class="col-md-9 mb-md-0 mb-5">
+               <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                  <div class="row">
+                         <div class="form-info col-md-6">
+                         <div class="md-form mb-0">
+                          <input type="text" id="name" name="name" class="form-control">
+                          <label for="name" class="">Enter Your name</label>
+                         </div>
+                          </div>
+                          <div class="form-info  col-md-6">
+                          <div class="md-form mb-0">
+                           <input type="text" id="email" name="email" class="form-control">
+                           <label for="email" class="">Enter Your email</label>
+                          </div>
+                          </div>
+                   </div>
+                  <div class="row">
+                         <div class=" form-info col-md-12">
+                         <div class="md-form mb-0">
+                          <input type="text" id="subject" name="subject" class="form-control">
+                          <label for="subject" class="">Subject</label>
+                         </div>
+                         </div>
+                   </div>
+                   <div class="row">
+                         <div class="form-info col-md-12">
+                          <div class="md-form">
+                          <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                          <label for="message">Your message</label>
+                          </div>
+                          </div>
+                   </div>
+               </form>
+
+              <div class="text-center text-md-centre">
+                <a href="#"class="btn-box"> send Me</a>
+               </div>
+                
+              </div>
+
+                <div class=" col-md-4 text-center">
+                  <ul class="location-img list-unstyled mb-0">
+                     <li><i class='bx bxs-location-plus' ></i>
+                     <p>Sault college, CA 94126, Toronto</p>
+                    </li></ul> </div>
+                    <div class=" col-md-3 text-center">
+                      <ul class="location-img list-unstyled mb-0">
+                     <li><i class='bx bxs-phone'></i>
+                     <p>+ 01 234 567 89</p>
+                    </li> </ul> </div>
+                    <div class=" col-md-5 text-center">
+                      <ul class="location-img list-unstyled mb-0">
+                    <li><i class='bx bxl-gmail' ></i>
+                      <p>Harjot@mdbootstrap.com</p>
+                    </li> </ul> </div>
+                  
+                 </div>
+           
+        </div>
+        <div class="row">
+          <div class="footer col-md-12 text-md-center">
+            <h6>Developed by Harjot Kaur 11 November,2023</h6> 
+           </div>
+        </div>
+      </div>
+
+    
+
+    </div>
+    
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js" ></script>
+  </body>
+</html>

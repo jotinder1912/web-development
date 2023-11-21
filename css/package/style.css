@@ -1,0 +1,284 @@
+/* Google Fonts - poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+body,ul,li,div,p,span,h1,h2,h3,h4,h5,h6,i,a{
+margin: 0;padding:0;
+} 
+.mynav{
+    background-color: black!important;
+    padding: 30px;
+    border-radius: 20px;
+    border-color: red;
+    border-width: 20px;
+    
+}
+.mylogo{
+    width: 100px;
+    height: 50px;
+}
+.mynav a{
+    color: rgb(239, 233, 233)!important;
+    font-size: 15px;
+    padding: 10px 30px !important;
+}
+.mynav a:hover{
+    color: rgb(228, 17, 17)!important;
+    border-bottom: 3px solid green;
+}
+.navbar-toggler{
+    background:  green !important;
+    color: brown !important;
+}
+.CV{
+  border-top: green;
+}
+.container{
+    padding-top: 20px;
+    min-height: 600px;
+    background-image: url(back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+.home-text h3{
+    color: aliceblue;
+    padding: 10px 10px;
+}
+.home-text h1{
+    color: aliceblue;
+    padding: 10px 10px;
+}
+.home-text p{
+    color: aliceblue;
+    padding: 10px 10px;
+
+}
+.container-type{
+    display: inline-block;
+    color: green;
+    font-size: 30px;
+    padding: 10px 10px;
+  }
+.typed-out{
+    overflow: hidden;
+    border-right: .15em solid rgb(255, 25, 0);
+    white-space: nowrap;
+    animation: 
+      typing 3s forwards;
+    font-size: 1.6rem;
+    width: 0;
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+.text-color{
+    color:rgb(214, 8, 8);
+}
+.home-text img{
+    margin-left: 100px;
+}
+.home-icon a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: black;
+    border-radius: 20px;
+    color:rgb(248, 244, 244);
+    box-shadow: 0 0 5px orangered,
+    0 0 25px orangered;
+    text-decoration: none;
+    margin: 30px 30px 0;
+}
+.home-icon a:hover{
+   background: green;
+   color: black;
+   
+}
+.btn-box{
+    margin-top:35px;
+    letter-spacing: 1px;
+    margin-left: 50px;
+    box-shadow: inset;
+    display: inline-block;
+    text-decoration: none;
+    justify-content: space-between;
+    background: rgb(13, 14, 13);
+    color:red;
+    padding: 10px 10px 10px;
+    border-radius: 30px;
+    box-shadow: 0 0 5px green,
+    0 0 25px lightgreen;
+}
+.about{
+    min-height: 600%;
+}
+.about-text{
+    padding-top: 30px;
+}
+.about-text h1{
+    color: aliceblue;
+    padding: 10px 10px;
+}
+.about-text p{
+    color: aliceblue;
+    padding: 10px 10px;
+}.mybutton{
+  background: black!important;
+  color: red!important;
+  padding: 10px 20px;
+  margin-left: 150px;
+  border-radius: 30px;
+  box-shadow: 0 0 5px green,
+  0 0 25px lightgreen;   
+}
+.mybutton:hover{
+  background:rgb(168, 162, 152) !important;
+  color: aquamarine !important;
+}    
+
+
+
+
+.skills{
+    min-height: 900%;
+}
+.skills h1{
+    color: aliceblue;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.skill-java img{
+    padding-left: 120px;
+    padding-top: 50px;
+}
+.skill-java p{
+    padding-left: 130px;
+    padding-top: 20px;
+    color: #dad4d4;
+}
+.mybuttonJAVA{
+    background: black!important;
+    color: red!important;
+    padding: 10px 20px;
+    margin-left: 150px;
+    border-radius: 30px;
+    box-shadow: 0 0 5px green,
+    0 0 25px lightgreen;   
+}
+.mybuttonJAVA:hover{
+    background:rgb(168, 162, 152) !important;
+    color: aquamarine !important;
+}    
+
+.skill-html img{
+    padding-left: 150px;
+    padding-top: 50px;
+}
+.skill-html p{
+    padding-left: 130px;
+    padding-top: 20px;
+    color: #dad4d4;
+}
+.skill-css img{
+    padding-left: 130px;
+    padding-top: 50px;
+}
+.skill-css p{
+    padding-left: 120px;
+    padding-top: 20px;
+    color: #dad4d4;
+}
+.skill-python img{
+    padding-left: 120px;
+    padding-top: 50px;
+}
+.skill-python p{
+    padding-left: 130px;
+    padding-top: 20px;
+    color: #dad4d4;
+}
+.skills a{
+    align-items: center;
+    position: relative  50%  80%;
+}
+
+
+.contact h1{
+    color: aliceblue;
+    padding-top: 20px;
+    text-align: center;
+    justify-content: space-between;
+    
+}
+.contact-map{
+  padding-top: 20px;
+}
+.map h5{
+    color: orangered;
+}
+.map p iframe{
+    height: 500px;
+}
+ 
+
+
+.contact-form h2{
+  color: aliceblue;
+  text-align: center;
+  justify-content: space-between;
+}
+.contact-form p{
+  color: aliceblue;
+  text-align: center;
+  justify-content: space-between;
+}
+.form-info{
+  color: aliceblue;
+  text-align: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-left: 100px !important;
+}
+.form-info input{
+  color: rgb(255, 98, 0);
+  border-radius: 10px;
+  background-color: black;
+
+}
+.form-info textarea{
+  color: rgb(255, 98, 0);
+  border-radius: 10px;
+  background-color: black;
+}
+.location-img  i{
+  color: red;
+  text-align: center;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.location-img  p{
+    cursor: pointer;
+  text-align: center;
+  justify-content: space-between;
+  
+}
+.location-img  p:hover{
+  color: aquamarine;
+}
+.send-me {
+  padding-top: 20px;
+}
+
+.footer{
+  color: aliceblue!important;
+  text-decoration: underline;
+  text-decoration-color: brown;
+  cursor: pointer;
+}
+.footer h6:hover{
+  color: green;
+}
