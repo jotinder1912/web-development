@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+body,ul,li,div,p,span,h1,h2,h3,h4,h5,h6,i,a{
+margin: 0;padding:0;
+} 
+.mynavbar{
+    background-color:  black !important;
+    padding: auto;
+    border-radius: 20px;
+    border-color: rgb(0, 255, 51);
+    border-width: 20px;
+    
+}
+.mylogo{
+    height: 70px;
+}
+.mynavbar a{
+    color: rgb(21, 194, 21)!important;
+    font-size: 15px;
+    padding: 20px 50px !important;
+    text-align: auto;
+}
+.mynavbar a:hover{
+    color: brown !important;
+    border-bottom: 3px solid lightsalmon !important;
+}
+.container{
+    padding-top: 20px;
+    min-height: 600px;
+    background-image: url(background1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+.home-text h1{
+    color: aliceblue;
+    padding: 10px 10px;
+}
+.home-text h2{
+    color: aliceblue;
+    padding: 10px 10px;
+}
+.home-text p{
+    color: aliceblue;
+    padding: 10px 10px;
+
+}
+.container-type{
+    display: inline-block;
+    color: rgb(0, 79, 128);
+    font-size: 30px;
+    padding: 10px 10px;
+}
+.typed-out{
+    overflow: hidden;
+    border-left: .15em solid rgb(3, 65, 79);
+    white-space: nowrap;
+    animation: 
+      typing 3s forwards;
+    font-size: 1.6rem;
+    width: 0;
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+.home-icon a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    size: smaller;
+    width: 50%;
+    height: 40px;
+    background: black;
+    border-radius: 20px;
+    color:rgb(248, 244, 244);
+    box-shadow: 0 0 5px rgb(0, 255, 98),
+    0 0 25px rgb(0, 255, 30);
+    text-decoration: none;
+    margin: 30px 30px 0;
+}
+.home-icon a:hover{
+    background: green;
+    color: black;
+    
+ }
