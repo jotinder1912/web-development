@@ -48,41 +48,74 @@
 
   </div>
 
-  <div class="home-area" id="home">
+  <div class="home-text" id="home">
     <div class="container">
       <div class="row">
-    <div class="home-text col-md-6">
-      <h1 class="animate__animated animate__bounceOut">Hello, <span>I`m</span> </h1>
-      <h2 class="animate__animated animate__bounceIn"> <span>Harjot</span> Kaur</h2>
-      <div class="container-type">
-        <div class="typed-out">I am sault college studebt born on 12 May, 2002. <br>I have different hobbies like  workimg in HTML and CSS</div>
+        <div class="home-text col-md-5">
+          <h1 class="animate__animated animate__bounceOut">Hello, <span>I`m</span> </h1>
+          <h2 class="animate__animated animate__bounceIn"> <span>Harjot</span> Kaur</h2>
+          <div class="container-type">
+            <div class="typed-out">I am sault college student born on 12 May, 2002  <br>at Chamkaur sahib.My fatherI have different <br> hobbies like  workimg in HTML and CSS</div>
+          </div>
+          <div class="home-icon">
+            <a href="https://instagram.com/bhangu_jotkaur?igshid=MWQ1c3VubnFzd3Ixaw%3D%3D&utm_source=qr"><i class='bx bxl-instagram-alt' ></i>Instagram</a>
+            <a href="https://www.facebook.com/profile.php?id=61552786892832&mibextid=LQQJ4d"><i class='bx bxl-facebook-circle'></i>Facebook</a>
+          </div>
+          <button type="button" class="mybutton btn btn-success" onclick="typeWriter()">Learn More about ME</button>
+          <div class="typeWriter">
+            <p id="demo"></p>
+            
+            <script>
+            var i = 0;
+            var txt = 'My student journey has built a strong programming foundation and a love for turning code into impactful solutions.  ';
+            var speed = 50;
+            
+            function typeWriter() {
+              if (i < txt.length) {
+                document.getElementById("demo").innerHTML += txt.charAt(i);
+                i++;
+                setTimeout(typeWriter, speed);
+              }
+            }
+            </script>
+            
+
+        </div>
       </div>
-      <div class="home-icon">
-        <a href="https://instagram.com/bhangu_jotkaur?igshid=MWQ1c3VubnFzd3Ixaw%3D%3D&utm_source=qr"><i class='bx bxl-instagram-alt' ></i>Instagram</a>
-        <a href="https://www.facebook.com/profile.php?id=61552786892832&mibextid=LQQJ4d"><i class='bx bxl-facebook-circle'></i>Facebook</a>
+      <div class="home-img col-md-6">
+        <img class="myimg img-fluid" src="harjot-removebg-preview.png" alt="">
       </div>
-      <button type="button" class="mybutton btn btn-success" onclick="typeWriter()">Learn More about ME</button>
-      <div class="typeWriter">
-      <p id="demo"></p>
-      
-      <script>
-      var i = 0;
-      var txt = 'My student journey has built a strong programming foundation and a love for turning code into impactful solutions.';
-      var speed = 50;
-      
-      function typeWriter() {
-        if (i < txt.length) {
-          document.getElementById("demo").innerHTML += txt.charAt(i);
-          i++;
-          setTimeout(typeWriter, speed);
-        }
-      }
-      </script>
-   
 
       </div>
     </div>
   </div>
+<div class="about">
+  <div class="container">
+    <div class="row">
+      <div class="about-text col-md-6">
+        
+        <li>
+          <p><span>MY hobbies-</span>   I love playing video games,reading books.</p>
+        </li>
+        <li>
+          <p><span>MY family-</span>  My father name Baljinder singh Bhangu and mother name is Kamaljeet kaur</p>
+        </li>
+        <li>
+          <p><span>About places-</span>   Since, my childhood I lived in my hometown Chuhar Majra then moved to Mohali after my marriage. <br>
+           For my future studies I moved to Canada.</p>
+        </li>
+        <li>
+          <p><span>leistue time-</span> I love singing in my free time and scrolling social media platforms </p>
+        </li>
+      </div>
+      <div class="about-img col-md-2">
+        <h5> My Brithplace on Google Maps</h5>
+               <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52017901.51741921!2d-1.6571512999999927!3d37.273306399999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3910007d0cb2e71b%3A0x64a761fcb9c5f694!2sShri%20Chamkaur%20Sahib!5e0!3m2!1sen!2sca!4v1696640365782!5m2!1sen!2sca" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+
+      </div>
+    </div>
+  </div>
+</div>
 
     
     <script src="js/bootstrap.bundle.min.js" ></script>

@@ -52,6 +52,7 @@ margin: 0;padding:0;
 .typed-out{
     overflow: hidden;
     border-left: .15em solid rgb(3, 65, 79);
+    border-end-end-radius:30px;
     white-space: nowrap;
     animation: 
       typing 3s forwards;
@@ -81,4 +82,34 @@ margin: 0;padding:0;
     background: green;
     color: black;
     
- }
+}
+.mybutton{
+    margin-top: 35px;
+    background-color: transparent !important;
+    margin-left: 30px;
+    color:rgb(248, 244, 244);
+    box-shadow: 0 0 5px rgb(0, 0, 255),
+    0 0 15px rgb(0, 255, 30);
+    text-decoration: none;
+}
+.mybutton:hover{
+    color: green;
+    background-color: aqua;
+}
+.myimg{
+    size: larger;
+    
+}
+.about-text p{
+    color: white;
+    padding-left: 20px;
+}
+p span{
+    color: green;
+}
+.about-img{
+    color: white;
+}
+.about-img p{
+    height: 100px;
+}
